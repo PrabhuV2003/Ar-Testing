@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Menu</title>
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boostrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body class="bodyMenu">
+
+    <nav>
+        <div class="navBar">
+                <img src="Img/logo/FASTA PIZZA LOGO - ORANGE.png" alt="">
+                <input type="text" placeholder="Search" class="search">
+        </div>
+    </nav>
+
+
+    <div class="ArBtn">
+        <button>AR MENU</button>
+    </div>
+
+    <div class="filterBtn-Box">
+        <div class="btn-group">
+            <button class="filterBtn btn-clicked" data-filter="all">All</button>
+            <button class="filterBtn" data-filter="pizza">Shorts</button>
+            <button class="filterBtn" data-filter="cake">Cheesy Feast</button>
+            <button class="filterBtn" data-filter="icecream">Desserts</button>
+        </div>
+    </div>
+
+    <div class="menu-container">
+
+        <div class="menuCard box" data-item="pizza">
+            <div class="menuImg">
+                <img src="Img/menu/Margherita.png" alt="">
+                <img src="Img/Toppings/American Corn.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>Margherita</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">Premium Italian sourdough base adorned with pizza sauce, cherry tomatoes, English cheddar, fresh basil, and aromatic herbs for an enduringly delightful flavor experience.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="icecream">
+            <div class="menuImg">
+                <img src="Img/menu/American Corn.png" alt="">
+                <img src="Img/Toppings/American Corn.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>American Corn</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">A fusion of Italian and American cuisines, featuring an Italian sourdough crust topped with tangy pizza sauce, melted mozzarella cheese, the sweet & crunchy tender corn kernels, creating a delightful taste sensation.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="pizza">
+            <div class="menuImg">
+                <img src="Img/menu/Frasca Veg.png" alt="">
+                <img src="Img/Toppings/Veg.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>Frasca Veg</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">It’s an authentic Italian sourdough pizza recipe loaded with fresh vegetables like green peppers, corn and onion which is baked to perfection.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box"  data-item="cake">
+            <div class="menuImg">
+                <img src="Img/menu/Peri Peri Onion.png" alt="">
+                <img src="Img/Toppings/American Corn.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>Peri Peri Onion</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">Delight in the bold flavors of our premium Italian sourdough pizza, featuring a classic base, rich pizza sauce, melty mozzarella cheese, and the fiery tang of peri peri onions.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="cake">
+            <div class="menuImg">
+                <img src="Img/menu/Fudgy Choconut.png" alt="">
+                <img src="Img/Toppings/almond grp.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>Fudgy Choconut</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis"> dark chocolate sweet base generously topped with luscious chocolate fudge and a delightful medley of pistachios, cashews, and almond slices for a nutty, and fudgy delight.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="icecream">
+                <img src="Img/menu/Mexican Roll.png" alt="">
+            <div class="cardContent">
+                <h3>Maxican Roll</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">Stuffed bread rolls with ample amounts of cheese and spice that guarantees your need for a light snack.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="pizza">
+            <div class="menuImg">
+                <img src="Img/menu/Indian Chlly Express.png" alt="">
+                <img src="Img/Toppings/American Corn.png" alt="" class="topping">
+            </div>
+            <div class="cardContent">
+                <h3>Indian Chlly Express</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">A fiery fusion on an Italian sourdough base, featuring hot chili sauce, mozzarella cheese, jalapeño green, red paprika, green chilies, and black olives for a truly spicy pizza experience.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+
+        <div class="menuCard box" data-item="cake">
+            <img src="Img/menu/Pinwheel.png" alt="">
+            <div class="cardContent">
+                <h3>Pinwheel</h3>
+                <div class="ratingBox">
+                    <p class="startRating">&#x2605;&#x2605;&#x2605;&#x2605;&#9734;</p><span>&#9829;</span>
+                </div>
+                <p class="menuDis">A buttery, crispy pastry with a hint of garlic for a light, satisfying snack.</p>
+                <a href=""><button>AR Menu</button></a>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+
+    <!-- Boostrap 5 Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/99e1031307.js" crossorigin="anonymous"></script>
+
+    <!-- Main JS -->
+    <script src="mail.js"></script>
+
+</body>
+</html>
